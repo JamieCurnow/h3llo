@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsc -d",
     "watch": "tsc --watch -d",
+    "dev": "tsc --watch -d",
     "test": "tsc",
     "lint": "eslint --ext ts ."
   },
@@ -20,9 +21,11 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/node": "latest",
     "eslint": "latest",
-    "listhen": "^0.2.4",
+    "listhen": "latest",
     "ts-node": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "ufo": "latest"
   }
 }
