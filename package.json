@@ -1,0 +1,28 @@
+{
+  "name": "h3llo",
+  "version": "0.0.1",
+  "description": "Automatic API routes from directory structure based on h3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "src/index.js",
+  "repository": "https://github.com/JamieCurnow/h3llo.git",
+  "author": "JamieCurnow <jamie@island-web.ca>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -d",
+    "watch": "tsc --watch -d",
+    "test": "tsc",
+    "lint": "eslint --ext ts ."
+  },
+  "dependencies": {
+    "h3": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "eslint": "latest",
+    "listhen": "^0.2.4",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
